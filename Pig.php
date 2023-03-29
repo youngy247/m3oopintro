@@ -6,7 +6,7 @@
 class Pig
 {
     // Properties
-    public string $name;
+    private string $name;
     public float $weight;
     public string $colour;
 

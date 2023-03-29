@@ -8,7 +8,8 @@ $sally = new Pig();
 
 // $sally is an instance of Pig.
 
-$sally->name = 'Sally';
+//$sally->name = 'Sally';
+$sally->setName('Sally');
 $sally->weight = 280.5;
 $sally-> colour = 'yellow';
 
@@ -17,7 +18,7 @@ print_r($sally);
 echo '</pre>';
 
 $fred = new Pig();
-$fred->name = 'fred';
+$fred->setName('fred');
 $fred->weight = 300.5;
 $fred-> colour = 'black';
 
@@ -27,10 +28,11 @@ echo '</pre>';
 
 // -> is called the object operator or object accessor
 
-echo $fred->name . ' says ' . $fred->speak() . ' ' . $fred->speak();
+echo $fred->getName() . ' says ' . $fred->speak() . ' ' . $fred->speak();
 echo '<p></p>';
 echo $fred->eat('truffles');
 
-echo $fred->name;
+echo '<p></p>';
+//echo $fred->name;
 echo $fred->getName();
 
