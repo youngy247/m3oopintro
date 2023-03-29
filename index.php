@@ -1,6 +1,7 @@
 <?php
 
-require_once 'Pig.php'; 'Sty.php';
+require_once 'Pig.php';
+require_once 'Sty.php';
 
 // Create an object of the type Pig.
 // Instantiate a Pig object.
@@ -46,9 +47,23 @@ echo '<br>';
 echo '<br>';
 
 $sty = new Sty();
-$sty->addPig('Sally');
-$sty->addPig('Fred');
+$sty->addPig($sally);
+$sty->addPig($fred);
 
+$cuthbert = new Pig();
+$cuthbert->setName('cuthbert');
+$cuthbert->setWeight(300);
+$cuthbert->setColour('pink');
 
+$spider = new Pig();
+$spider->setName('spider');
+$spider->setWeight(305);
+$spider->setColour('blue');
+
+$sty->addPigs([$cuthbert, $spider]);
+
+echo '<pre>';
+print_r($sty);
+echo '</pre>';
 
 
