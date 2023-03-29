@@ -20,6 +20,9 @@ class Pig
     {
         return 'Wag, wag!';
     }
+    public function eat(string $food): string {
+        return 'Mmmm. I love tasty ' . $food;
+    }
 }
 
 // -> is called the object operator or object accessor.
