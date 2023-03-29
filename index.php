@@ -36,3 +36,7 @@ echo '<p></p>';
 //echo $fred->name;
 echo $fred->getName();
 
+
+echo '<p></p>';
+echo $fred->getScientificName();
+
