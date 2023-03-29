@@ -9,6 +9,15 @@ class Pig
     private string $name;
     public float $weight;
     public string $colour;
+    private string $scientificName = 'Sus';
+
+    /**
+     * @return string
+     */
+    public function getScientificName(): string
+    {
+        return $this->scientificName;
+    }
 
     // Methods
     /**
