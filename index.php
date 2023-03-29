@@ -24,3 +24,5 @@ $fred-> colour = 'black';
 echo '<pre>';
 print_r($fred);
 echo '</pre>';
+
+// -> is called the object operator or object accessor

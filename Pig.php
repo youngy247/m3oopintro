@@ -9,6 +9,17 @@ class Pig
     public string $name;
     public float $weight;
     public string $colour;
+
+    // Methods
+    public function speak(): string
+    {
+        return 'Oink';
+    }
+
+    public function wagTail(): string
+    {
+        return 'Wag, wag!';
+    }
 }
 
 
