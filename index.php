@@ -26,3 +26,5 @@ print_r($fred);
 echo '</pre>';
 
 // -> is called the object operator or object accessor
+
+echo $fred->name . ' says ' . $fred->speak() . ' ' . $fred->speak();
