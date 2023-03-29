@@ -40,3 +40,5 @@ echo $fred->getName();
 echo '<p></p>';
 echo $fred->getScientificName();
 
+echo $fred::Owner;
+

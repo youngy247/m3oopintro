@@ -6,6 +6,7 @@
 class Pig
 {
     // Properties
+    const Owner = "IO Academy";
     private string $name;
     public float $weight;
     public string $colour;
