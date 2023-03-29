@@ -12,6 +12,13 @@ class Cow
     private string $colour;
     private string $scientificName = 'Bos';
 
+    public function __construct(string $name, float $weight, string $colour)
+    {
+        $this->name = $name;
+        $this->weight = $weight;
+        $this->colour = $colour;
+    }
+
     /**
      * @return string
      */
