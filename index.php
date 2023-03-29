@@ -1,0 +1,3 @@
+<?php
+
+$sally = new Pig();
