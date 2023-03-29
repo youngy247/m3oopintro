@@ -11,3 +11,5 @@ $ermintrude = new Cow('Ermintrude', 1200, 'black and white');
 echo '<pre>';
 print_r($ermintrude);
 echo '</pre>';
+
+echo $ermintrude;

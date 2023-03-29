@@ -90,6 +90,11 @@ class Cow
     public function eat(string $food): string {
         return 'Mmmm. I love tasty ' . $food;
     }
+
+    public function __toString(): string
+    {
+        return $this->name . ' is ' . $this->colour;
+    }
 }
 
 
