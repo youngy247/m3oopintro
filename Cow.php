@@ -73,12 +73,12 @@ class Cow
 
     public function speak(): string
     {
-        return 'Oink';
+        return 'Moo';
     }
 
     public function wagTail(): string
     {
-        return 'Wag, wag!';
+        return 'Swish!';
     }
     public function eat(string $food): string {
         return 'Mmmm. I love tasty ' . $food;
