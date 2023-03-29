@@ -15,3 +15,12 @@ $sally-> colour = 'yellow';
 echo '<pre>';
 print_r($sally);
 echo '</pre>';
+
+$fred = new Pig();
+$fred->name = 'fred';
+$fred->weight = 300.5;
+$fred-> colour = 'black';
+
+echo '<pre>';
+print_r($fred);
+echo '</pre>';
