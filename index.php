@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Pig.php';
+require_once 'Pig.php'; 'Sty.php';
 
 // Create an object of the type Pig.
 // Instantiate a Pig object.
@@ -41,6 +41,13 @@ echo '<p></p>';
 echo $fred->getScientificName();
 
 echo $fred::Owner;
+
+echo '<br>';
+echo '<br>';
+
+$sty = new Sty();
+$sty->addPig('Sally');
+$sty->addPig('Fred');
 
 
 
