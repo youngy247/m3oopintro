@@ -30,3 +30,7 @@ echo '</pre>';
 echo $fred->name . ' says ' . $fred->speak() . ' ' . $fred->speak();
 echo '<p></p>';
 echo $fred->eat('truffles');
+
+echo $fred->name;
+echo $fred->getName();
+
